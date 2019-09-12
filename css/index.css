@@ -12,7 +12,7 @@ a {
 
 /* ----------------HEADER---------------- */
 header {
-  background: #3b5998;
+  background: #2196f3;
   padding: 15px;
 }
 
@@ -170,6 +170,8 @@ header .search-area ul li {
   padding: 50px 0;
 }
 
+/* ----------------Content Area (Side Feed)---------------- */
+
 #content-area .side-feed{
   float: left;
   width: 35%;
@@ -177,18 +179,16 @@ header .search-area ul li {
   max-width: 360.05px;
 }
 
-#content-area .main-feed{
-  width: 50%;
-  margin: 0 2.5%;
-}
-
 #content-area .widget-box {
   background: white;
   border-radius: 3px;
   margin-bottom: 15px;
   box-shadow: 0px 2px 5px -1px rgba(138, 138, 138, 1);
-  padding: 15px;
   overflow: auto;
+}
+
+#content-area .widget-box .head {
+  padding: 15px 15px 0 15px;
 }
 
 #content-area .widget-box .head .widget-icon-container {
@@ -207,14 +207,37 @@ header .search-area ul li {
 }
 
 #content-area .widget-box .head .widget-icon .fa {
-  font-size: 27px;
+  font-size: 20px;
 }
 
 #content-area .widget-box .head .widget-title {
   display: inline-block;
-  padding-left: 15px
+  padding-left: 5px;
 }
 
 #content-area .widget-box .body {
   padding-top: 15px;
+}
+
+#content-area .widget-box .bio-body {
+  padding: 15px;
+  line-height: 30px;
+}
+
+#content-area .widget-box .bio-body h6 {
+  font-weight: 500;
+  color: rgba(0, 0, 0, .7)
+}
+
+#content-area .widget-box .bio-body p {
+  font-weight: 300;
+  color: rgba(0, 0, 0, .5)
+}
+
+/* ----------------Content Area (Main Feed)---------------- */
+
+#content-area .main-feed{
+  float: left;
+  width: 50%;
+  /* margin-right: 215px; */
 }
