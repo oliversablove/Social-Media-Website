@@ -84,6 +84,18 @@ header .search-area {
   margin-left: -4px;
 }
 
+header .search-area input {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+header .search-area input::placeholder {
+  color: rgba(255, 255, 255, .3);
+  text-transform: capitalize;
+}
+
 header .search-area ul li {
   display: inline-block;
 }
