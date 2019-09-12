@@ -95,6 +95,7 @@ header .search-area input {
   border: none;
   outline: none;
   border-bottom: 1px solid white;
+  color: white;
 }
 
 header .search-area input::placeholder {
