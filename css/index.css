@@ -113,7 +113,6 @@ header .search-area ul li {
   padding: 175px 15px 90px 40px;
   background: url(https://i.pinimg.com/originals/26/11/0f/26110f4c17dac3591934c2fe3d0d9b8e.jpg) no-repeat center center fixed;
   background-size: cover;
-  margin-bottom: 40px;
 }
 
 #top-area .profile-info .pro-pic {
@@ -161,4 +160,19 @@ header .search-area ul li {
 
 #top-area .profile-info .user-desc button:hover {
   background: #2196f3;
+}
+
+/* ----------------Content Area---------------- */
+
+#content-area .side-feed{
+  display: inline-block;
+  width: 35%;
+  margin: 0 2.5%;
+  float: left;
+}
+
+#content-area .main-feed{
+  display: inline-block;
+  width: 50%;
+  margin: 0 2.5%;
 }
