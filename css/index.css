@@ -6,6 +6,11 @@ html {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* ----------------HEADER---------------- */
 header {
   background: #3b5998;
   padding: 15px;
@@ -26,6 +31,7 @@ header .logo-area {
   display: inline-block;
   width: 20%;
   margin-left: -4px;
+  padding-left: 10px;
 }
 
 header .logo-area a {
@@ -98,4 +104,61 @@ header .search-area input::placeholder {
 
 header .search-area ul li {
   display: inline-block;
+}
+
+/* ----------------Profile Area---------------- */
+
+#top-area {
+  height: 400px;
+  padding: 175px 15px 90px 40px;
+  background: url(https://i.pinimg.com/originals/26/11/0f/26110f4c17dac3591934c2fe3d0d9b8e.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+#top-area .profile-info .pro-pic {
+  padding-left: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+#top-area .profile-info .pro-pic img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+#top-area .profile-info .user-desc {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 42px;
+}
+
+#top-area .profile-info .user-desc h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+#top-area .profile-info .user-desc a {
+  display: inline-block;
+  font-size: 7px;
+  color: white;
+  margin-bottom: 3px;
+}
+
+#top-area .profile-info .user-desc button {
+  background: rgba(255, 255, 255, .4);
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 45%;
+  transition: background .4s ease-in-out;
+}
+
+#top-area .profile-info .user-desc button:hover {
+  background: #2196f3;
 }
