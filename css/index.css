@@ -18,7 +18,7 @@ a {
 
 /* ----------------HEADER---------------- */
 header {
-  background: #2196f3;
+  background: #2C2C2C;
   padding: 15px;
 }
 
@@ -168,6 +168,62 @@ header .search-area ul li {
   background: #2196f3;
 }
 
+/*----------- Side Icons --------------*/
+
+#top-area .icons-container {
+  float: right;
+  margin-top: 1.5%;
+  margin-right: 3.5%;
+  display: block;
+}
+#top-area .icons-container .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://previews.123rf.com/images/jes2ufoto/jes2ufoto1405/jes2ufoto140500106/28828525-close-up-of-golf-green-grass.jpg)
+  no-repeat center center;
+  background-size: cover;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 60%;
+}
+
+#top-area .icons-container .icon-container .fas {
+  font-size: 26px;
+}
+
+/*-----------------Individual Icons---------------------*/
+
+#top-area .icons-container .icon-container.last {
+  margin-top: 100%;
+  background: #c2c2c2;
+}
+
+#top-area .icons-container .icon-container.last i {
+  font-size: 16px;
+}
+
+/* #content-area .widget-box .head .widget-icon-container {
+  display: inline-block;
+}
+
+#content-area .widget-box .head .widget-icon {
+  background: #bfbfbf;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-area .widget-box .head .widget-icon .fa {
+  font-size: 20px;
+} */
+
 /* ----------------Content Area---------------- */
 
 #content-area {
@@ -291,16 +347,31 @@ header .search-area ul li {
 
 /* ----------------Content Area (Main Feed Post)---------------- */
 
-#content-area .main-feed .widget-box .post {
+/* #content-area .main-feed .widget-box.post {
   overflow: auto;
-}
+} */
 
-#content-area .main-feed .widget-box .post .head .post-info {
+#content-area .main-feed .widget-box.post .head .post-info {
   display: inline-block;
   float: left;
   width: 80%;
 }
 
-#content-area .main-feed .widget-box .post .head .post-info .post-date {
+#content-area .main-feed .widget-box.post .head .post-info::after {
+  content: ' ';
+  clear: both;
+  display: table;
+}
+
+#content-area .main-feed .widget-box.post .head .post-info .post-date {
   font-size: 12px;
+}
+
+#content-area .main-feed .widget-box.post .post-body {
+  padding: 15px;
+}
+
+#content-area .main-feed .widget-box.post .post-body .post-img img {
+  width: 100%;
+  background: no-repeat center center;
 }
