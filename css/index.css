@@ -8,7 +8,13 @@ html {
 
 a {
   text-decoration: none;
+  color: #2196f3;
+  transition: all .3s ease-in-out;
 }
+
+/* a:hover {
+  text-decoration: underline;
+} */
 
 /* ----------------HEADER---------------- */
 header {
@@ -119,7 +125,6 @@ header .search-area ul li {
 #top-area .profile-info .pro-pic {
   padding-left: 10px;
   display: inline-block;
-  position: relative;
 }
 
 #top-area .profile-info .pro-pic img{
@@ -234,10 +239,68 @@ header .search-area ul li {
   color: rgba(0, 0, 0, .5)
 }
 
-/* ----------------Content Area (Main Feed)---------------- */
+/* ----------------Content Area (Main Feed Submenu)---------------- */
 
 #content-area .main-feed{
   float: left;
-  width: 50%;
-  /* margin-right: 215px; */
+  width: 55%;
+  margin-top: -40px;
+}
+
+#content-area .main-feed .submenu ul {
+  padding: 0;
+  margin: 0;
+}
+
+#content-area .main-feed .submenu ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 10px;
+  border-bottom: 3px solid white;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  color: gray;
+}
+
+#content-area .main-feed .submenu ul li:hover {
+  border-bottom: 3px solid #2196f3;
+  color: #2196f3;
+}
+
+#content-area .main-feed .submenu ul li:nth-child(5):hover {
+  color: #2196f3;
+  border-bottom: white;
+}
+
+#content-area .main-feed .submenu ul li:nth-child(5) {
+  padding: 23px 0 21px;
+  font-size: 17px;
+  width: 20%;
+  float: right;
+  color: gray;
+}
+
+#content-area .main-feed .submenu ul span {
+  display: block;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* ----------------Content Area (Main Feed Post)---------------- */
+
+#content-area .main-feed .widget-box .post {
+  overflow: auto;
+}
+
+#content-area .main-feed .widget-box .post .head .post-info {
+  display: inline-block;
+  float: left;
+  width: 80%;
+}
+
+#content-area .main-feed .widget-box .post .head .post-info .post-date {
+  font-size: 12px;
 }

@@ -3,9 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <title>THSpace</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
   </head>
@@ -44,7 +43,7 @@
         </ul>
       </div>
       <div class="privacy">
-        <i class="fa fa-lock" aria-hidden="true"></i>
+        <i class="fa fa-cog"></i>
       </div>
       <div class="search-area">
         <ul>
@@ -88,7 +87,7 @@
             <div class="widget-title">Bio</div>
           </div>
           <div class="body bio-body">
-            <h6>Boston, MA</h6>
+            <h6><i class="fas fa-map-marker-alt"></i> Boston, MA</h6>
             <p>LFC & Patriots</p>
           </div>
         </div>
@@ -155,31 +154,46 @@
       </div>
       <div class="main-feed">
         <div class="widget-box submenu">
-          <div class="head">
-            <div class="widget-icon-container">
-              <div class="widget-icon">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-              </div>
-            </div>
-            <div class="widget-title">Bio</div>
-          </div>
-          <div class="body bio-body">
-            <h6>Boston, MA</h6>
-            <p>LFC & Patriots</p>
-          </div>
+          <ul>
+            <li>
+              <i class="fas fa-stream" aria-hidden="true"></i>
+              <span>Timeline</span>
+            </li>
+            <li>
+              <i class="fas fa-globe-americas"></i>
+              <span>Global</span>
+            </li>
+            <li>
+              <i class="far fa-newspaper" aria-hidden="true"></i>
+              <span>News</span>
+            </li>
+            <li>
+              <i class="far fa-chart-bar"></i>
+              <span>Rankings</span>
+            </li>
+            <li>
+              <i class="fas fa-ellipsis-v"></i>
+            </li>
+          </ul>
         </div>
-        <div class="widget-box post">
+        <div class="widget-box post" style="overflow: auto;">
           <div class="head">
-            <div class="widget-icon-container">
-              <div class="widget-icon">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-              </div>
+            <div class="user-img">
+              <img src="images/pro-pic.png" alt="Oliver Sablove" style="
+              display: inline-block; background: no-repeat center center; background-size: cover;
+              height: 40px; width: 40px; border-radius: 50%; float: left; margin-right: 15px;
+              "/>
             </div>
-            <div class="widget-title">Bio</div>
+            <div class-"post-info">
+              <span class="user-info" style="display: block; font-size: 14px; margin-top: 4px;">
+                <a href="#">Oliver Sablove</a> shared
+                <a href="#">Link</a>
+              </span>
+              <span class="post-date" style="font-size: 12px;">Sept 13 at 11:40 AM</span>
+            </div>
           </div>
-          <div class="body bio-body">
-            <h6>Boston, MA</h6>
-            <p>LFC & Patriots</p>
+          <div class="body">
+
           </div>
         </div>
       </div>
