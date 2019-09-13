@@ -198,31 +198,37 @@ header .search-area ul li {
 
 #top-area .icons-container .icon-container.last {
   margin-top: 100%;
-  background: #c2c2c2;
+  background: #d2d2d2;
 }
 
 #top-area .icons-container .icon-container.last i {
   font-size: 16px;
 }
 
-/* #content-area .widget-box .head .widget-icon-container {
-  display: inline-block;
+#top-area .icons-container .icon-container.court {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxx6vpRrc_nNpu-BjxiUqNexznuul0puTy_YMaWbqRwhvskHi) no-repeat center center;
+  background-size: cover;
 }
 
-#content-area .widget-box .head .widget-icon {
-  background: #bfbfbf;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#top-area .icons-container .icon-container.tennis-court {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBV6R5ufiDXFA0MkR9CGQL-HNsZCDeWzM0xPW3RnFz6MsWX55Qw) no-repeat center center;
+  background-size: cover;
 }
 
-#content-area .widget-box .head .widget-icon .fa {
-  font-size: 20px;
-} */
+#top-area .icons-container .icon-container.track {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1iXORiEPJZ0PziwrSJhVovOS7zlzDSxSGn_Ib2QC4D2ZiZ6ri) no-repeat center center;
+  background-size: cover;
+}
+
+#top-area .icons-container .icon-container.rink {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bIiVkGmamNlIuabttYMmDAUePLdqADwGBuUt5jIS9OjXrDAqcA) no-repeat center center;
+  background-size: cover;
+}
+
+#top-area .icons-container .icon-container.slope {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoJUGMPNDJj5CWcJqkfLt9GXECxaG1GS2vUHWWAegIk1pTpaJd) no-repeat center center;
+  background-size: cover;
+}
 
 /* ----------------Content Area---------------- */
 
