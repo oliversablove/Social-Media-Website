@@ -12,6 +12,14 @@ a {
   transition: all .3s ease-in-out;
 }
 
+/* .fa, .fas, .far {
+  transition: all .2s ease-in-out;
+}
+
+.fa:hover, .fas:hover, .far:hover {
+  color: #2196f3;
+} */
+
 /* a:hover {
   text-decoration: underline;
 } */
@@ -188,6 +196,12 @@ header .search-area ul li {
   height: 40px;
   border-radius: 50%;
   margin-bottom: 60%;
+  transition: all .4s ease-in-out;
+}
+
+/*---Default Hover---*/
+#top-area .icons-container .icon-container:hover {
+  color: black;
 }
 
 #top-area .icons-container .icon-container .fas {
@@ -196,35 +210,69 @@ header .search-area ul li {
 
 /*-----------------Individual Icons---------------------*/
 
+/*--Plus--*/
 #top-area .icons-container .icon-container.last {
   margin-top: 100%;
   background: #d2d2d2;
 }
 
-#top-area .icons-container .icon-container.last i {
+#top-area .icons-container .icon-container.last .fas {
   font-size: 16px;
 }
 
+#top-area .icons-container .icon-container.last:hover {
+  background: #818181;
+  color: white;
+}
+
+/*--Football--*/
+#top-area .icons-container .icon-container.football:hover {
+  color: #6F1E00;
+}
+
+/*--Basketball--*/
 #top-area .icons-container .icon-container.court {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxx6vpRrc_nNpu-BjxiUqNexznuul0puTy_YMaWbqRwhvskHi) no-repeat center center;
   background-size: cover;
 }
 
+#top-area .icons-container .icon-container.court:hover {
+  color: #F17900;
+}
+
+/*--Tennis--*/
 #top-area .icons-container .icon-container.tennis-court {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkBV6R5ufiDXFA0MkR9CGQL-HNsZCDeWzM0xPW3RnFz6MsWX55Qw) no-repeat center center;
   background-size: cover;
 }
 
+#top-area .icons-container .icon-container.tennis-court:hover {
+  color: #EAFF3D;
+}
+
+/*--Track--*/
 #top-area .icons-container .icon-container.track {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1iXORiEPJZ0PziwrSJhVovOS7zlzDSxSGn_Ib2QC4D2ZiZ6ri) no-repeat center center;
   background-size: cover;
 }
 
+/*--Baseball--*/
+#top-area .icons-container .icon-container.baseball:hover {
+  color: #DEBFBF;
+}
+
+/*--Golf--*/
+#top-area .icons-container .icon-container.golf:hover {
+  color: #f5f5f5;
+}
+
+/*--Hockey--*/
 #top-area .icons-container .icon-container.rink {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6bIiVkGmamNlIuabttYMmDAUePLdqADwGBuUt5jIS9OjXrDAqcA) no-repeat center center;
   background-size: cover;
 }
 
+/*--Skiing--*/
 #top-area .icons-container .icon-container.slope {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoJUGMPNDJj5CWcJqkfLt9GXECxaG1GS2vUHWWAegIk1pTpaJd) no-repeat center center;
   background-size: cover;
