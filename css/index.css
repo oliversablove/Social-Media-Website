@@ -39,6 +39,12 @@ header a {
 
 header .fa {
   color: white;
+  transition: color .2s ease-in-out;
+}
+
+header .fa:hover {
+  color: #2196f3;
+  cursor: pointer;
 }
 
 header .logo-area {
@@ -311,7 +317,7 @@ header .search-area ul li {
 }
 
 #content-area .widget-box .head .widget-icon {
-  background: #bfbfbf;
+  background: #d2d2d2;
   height: 40px;
   width: 40px;
   border-radius: 50%;
