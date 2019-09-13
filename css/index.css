@@ -407,9 +407,9 @@ header .search-area ul li {
 
 /* ----------------Content Area (Main Feed Post)---------------- */
 
-/* #content-area .main-feed .widget-box.post {
-  overflow: auto;
-} */
+#content-area .main-feed .widget-box.post .head {
+  margin-bottom: 15px;
+}
 
 #content-area .main-feed .widget-box.post .head .post-info {
   display: inline-block;
@@ -436,9 +436,40 @@ header .search-area ul li {
   background: no-repeat center center;
 }
 
+#content-area .main-feed .widget-box.post .post-body .top-icons {
+  width: 100%;
+  padding: 15px 0;
+}
+
+#content-area .main-feed .widget-box.post .post-body .top-icons .far {
+  font-size: 20px;
+  color: #808080;
+  transition: all .3s ease-in-out;
+}
+
+#content-area .main-feed .widget-box.post .post-body .top-icons .far:hover {
+  color: #2196f3;
+}
+
+#content-area .main-feed .widget-box.post .post-body .top-icons .fa-heart {
+  margin-right: 15px;
+}
+
+#content-area .main-feed .widget-box.post .post-body .top-icons span {
+  float: right;
+}
+
+/* #content-area .main-feed .widget-box.post .post-body .top-icons .fa-share-square {
+  width: 100%;
+}
+
+#content-area .main-feed .widget-box.post .post-body .top-icons .fa-comment{
+  width: 100%;
+} */
+
 #content-area .main-feed .widget-box.post .body .post-comments {
-  background: #e0e0e0;
-  padding: 15px;
+  background: #eeeeee;
+  padding: 15px 15px 20px 15px;
   margin: 0 -15px;
 }
 
@@ -465,20 +496,29 @@ header .search-area ul li {
   display: inline-block;
   float: left;
   width: 92%;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+#content-area .main-feed .widget-box.post .body .post-comments .user-comment p {
+  font-size: 12px;
+  color: #808080;
 }
 
 #content-area .main-feed .widget-box.post .body .post-comments .user-comment .user-info {
   margin: 5px 0 10px 0;
 }
 
+#content-area .main-feed .widget-box.post .body .post-comments .user-comment .user-info .time {
+  color: #808080;
+  font-size: 12px;
+  float: right;
+}
+
 /*------------------------------------------------*/
 
 
 #content-area .main-feed .widget-box.post .body .post-form {
-  background: #e0e0e0;
-  padding: 15px;
-  margin: 0 -15px;
+  padding-top: 15px;
 }
 
 #content-area .main-feed .widget-box.post .body .post-form .user-img {
@@ -500,18 +540,39 @@ header .search-area ul li {
   border-radius: 50%;
 }
 
-#content-area .main-feed .widget-box.post .body .post-form .user-comment {
+#content-area .main-feed .widget-box.post .body .post-form .form-info {
   display: inline-block;
   float: left;
   width: 92%;
   font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid #a8a8a8;
 }
 
-#content-area .main-feed .widget-box.post .body .post-form .user-comment .user-info {
-  margin: 5px 0 10px 0;
+#content-area .main-feed .widget-box.post .body .post-form .form-info input {
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 12px;
 }
 
+#content-area .main-feed .widget-box.post .body .post-form .form-info .icons {
+  display: inline-block;
+  float: right;
+}
 
+#content-area .main-feed .widget-box.post .body .post-form .form-info .icons i {
+ font-size: 20px;
+ margin-right: 15px;
+ color: #a8a8a8;
+ transition: color .3s ease-in-out;
+}
+
+#content-area .main-feed .widget-box.post .body .post-form .form-info .icons i:hover {
+ font-size: 20px;
+ margin-right: 15px;
+ color: #2196f3;
+}
 
 #content-area .main-feed .widget-box.post .body .post-form img {
   height: 40px;
