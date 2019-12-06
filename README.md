@@ -1,12 +1,12 @@
 Social Media Website built with HTML and CSS
 
 ## Link
-https://competent-brahmagupta-e31f5f.netlify.com/
+https://quirky-wilson-17f535.netlify.com
 
 ## About
 This is a social media sports-themed website I made using solely HTML and CSS. Specifically, it is a landing page for a user
 profile, loosely based off a Facebook profile page. The purpose of this project is to show case aesthetic and user-friendly design. There is no Javascript used in this iteration, so the buttons do not currently do anything, and all 'data' on the page
-is hardcoded, as there is no backend
+is hardcoded, as there is no backend. This site is currently hosted through Netlify (please excuse the domain name).
 
 ## Features
 1. Intutitive and Engaging Site Layout
