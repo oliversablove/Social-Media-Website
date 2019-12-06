@@ -23,9 +23,10 @@ Technical Development:
 for mobile.
 
 General Development:
+
 In general, the direciton for this site in the future is meant to aim for some iteration of Twitter and ESPN combined - something like an interactive sports site that incorporates actual statistics that can be referenced in posts.
 
-1. I would love to create and build upon a database on players that users can individually rank, which in turn create a site-wide ranking. Rankings per sport category would then be displayed in the rankings tab, based on how many users have ranked/favorited players.
+1. I would love to create and build upon a database of players that users can individually rank, which in turn create a site-wide ranking. Rankings per sport category would then be displayed in the rankings tab, based on how many users have ranked/favorited players.
 2. The global channel would function much like Twitter, with a global news feed of some kind. This would likely be based on
 user interactions with certain posts, as well as posts from highly followed accounts.
 3. The news tab would be a newsfeed of player and team-based current news, descending by most recent. This would function much like ESPN Fantasy Apps re: player news. Example: imgur link.
